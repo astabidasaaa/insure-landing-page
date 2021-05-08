@@ -33,7 +33,7 @@ Mobile version screenshot:
 <img src="./screenshot/mobile-screenshot-3.png" width="200px">
 
 Mobile version nav screenshot:
-![Mobile Screenshot](./screenshot/mobile-nav-screenshot.png)
+<br><img src="./screenshot/mobile-nav-screenshot.png" width="200px">
 
 ### Links
 
