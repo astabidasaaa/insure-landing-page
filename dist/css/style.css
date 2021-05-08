@@ -44,7 +44,7 @@ nav {
           align-items: center;
   width: 100%;
   padding: 1.3rem 0;
-  z-index: 99;
+  z-index: 999;
   background-color: #fff;
 }
 
@@ -153,11 +153,12 @@ nav #nav-container #dropdown-btn {
   background-color: #2d2640;
   width: 100%;
   height: 100vh;
-  padding: 7rem 0 0;
+  padding: 4rem 0 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-transition: top 0.3s ease-in-out;
   transition: top 0.3s ease-in-out;
+  z-index: 99;
 }
 
 @media screen and (max-width: 601px) {
@@ -199,7 +200,7 @@ nav #nav-container #dropdown-btn {
 
 .dropdown-open {
   height: 100vh;
-  top: 0;
+  top: 4rem;
 }
 
 .noscroll {
@@ -265,6 +266,7 @@ nav #nav-container #dropdown-btn {
           align-items: flex-start;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  position: relative;
   width: 50%;
   padding-right: 1rem;
 }
@@ -274,7 +276,7 @@ nav #nav-container #dropdown-btn {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
-    width: 85%;
+    width: 100%;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -298,16 +300,25 @@ nav #nav-container #dropdown-btn {
 
 #intro #intro-text h1 {
   width: 90%;
+  z-index: 1;
 }
 
 @media screen and (max-width: 601px) {
   #intro #intro-text h1 {
-    width: 100%;
+    width: 85%;
+    margin-top: 4rem;
   }
 }
 
 #intro #intro-text p {
   margin: 1rem 0 2rem;
+  z-index: 1;
+}
+
+@media screen and (max-width: 601px) {
+  #intro #intro-text p {
+    width: 85%;
+  }
 }
 
 #intro #intro-image {
@@ -320,12 +331,13 @@ nav #nav-container #dropdown-btn {
         -ms-flex-order: 1;
             order: 1;
     width: 100%;
-    margin-bottom: 4rem;
+    height: auto;
   }
 }
 
 #intro #intro-image img {
   width: 100%;
+  display: block;
 }
 
 #value {
@@ -518,6 +530,7 @@ nav #nav-container #dropdown-btn {
 
 #banner #banner-container #banner-text {
   max-width: 28rem;
+  z-index: 1;
 }
 
 @media screen and (max-width: 601px) {
@@ -599,6 +612,7 @@ footer #footer-container #footer-heading {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
+  z-index: 1;
 }
 
 @media screen and (max-width: 601px) {
@@ -656,6 +670,7 @@ footer #footer-container #footer-line {
   background-color: #837d87;
   margin: 2rem 0;
   opacity: 0.2;
+  z-index: 1;
 }
 
 footer #footer-container #footer-contents {
@@ -673,6 +688,7 @@ footer #footer-container #footer-contents {
       -ms-flex-align: start;
           align-items: flex-start;
   width: 85%;
+  z-index: 1;
 }
 
 @media screen and (max-width: 601px) {
@@ -897,7 +913,7 @@ a:active {
   position: absolute;
   left: 0;
   top: 32rem;
-  height: 22%;
+  max-width: 18%;
   z-index: 1;
   pointer-events: none;
   opacity: 0.9;
@@ -913,7 +929,7 @@ a:active {
   position: absolute;
   right: 0;
   top: 0;
-  height: 24%;
+  max-width: 36%;
   z-index: 1;
   pointer-events: none;
   opacity: 0.9;
@@ -954,6 +970,84 @@ a:active {
 @media screen and (max-width: 601px) {
   #bg-pattern-footer-desktop {
     display: none;
+  }
+}
+
+#bg-pattern-mobile-nav {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+#bg-pattern-intro-left-mobile {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-width: 42%;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 601px) {
+  #bg-pattern-intro-left-mobile {
+    display: block;
+  }
+}
+
+#bg-pattern-intro-right-mobile {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 20rem;
+  max-width: 42%;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 601px) {
+  #bg-pattern-intro-right-mobile {
+    display: block;
+  }
+}
+
+#bg-pattern-how-we-work-mobile {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  max-width: 55%;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 601px) {
+  #bg-pattern-how-we-work-mobile {
+    display: block;
+  }
+}
+
+#bg-pattern-footer-mobile {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-width: 100%;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 601px) {
+  #bg-pattern-footer-mobile {
+    display: block;
   }
 }
 
