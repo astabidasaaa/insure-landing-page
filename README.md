@@ -25,20 +25,20 @@ Users should be able to:
 ### Screenshot
 
 Desktop version screenshot:
-![Desktop Screenshot](./screenshot/desktop-screenshot.png)
+<br><img src="./screenshot/desktop-screenshot.png" width="300px">
 
 Mobile version screenshot:
-![Mobile Screenshot](./screenshot/mobile-screenshot-1.png)
-![Mobile Screenshot](./screenshot/mobile-screenshot-2.png)
-![Mobile Screenshot](./screenshot/mobile-screenshot-3.png)
+<br><img src="./screenshot/mobile-screenshot-1.png" width="200px">
+<img src="./screenshot/mobile-screenshot-2.png" width="200px">
+<img src="./screenshot/mobile-screenshot-3.png" width="200px">
 
 Mobile version nav screenshot:
 ![Mobile Screenshot](./screenshot/mobile-nav-screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/astabidasaaa/insure-landing-page)
-- Live Site URL: [Add live site URL here](https://astabidasaaa.github.io/insure-landing-page/)
+- Solution URL: [https://github.com/astabidasaaa/insure-landing-page](https://github.com/astabidasaaa/insure-landing-page)
+- Live Site URL: [https://astabidasaaa.github.io/insure-landing-page/](https://astabidasaaa.github.io/insure-landing-page/)
 
 ## My process
 
